@@ -1,7 +1,5 @@
 package com.course.syntax;
 
-import java.util.Scanner;
-
 public class StepFirst {
     public static void main(String[] args) {
         //StepFirst
