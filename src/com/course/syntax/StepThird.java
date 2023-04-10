@@ -12,10 +12,23 @@ public class StepThird {
             System.out.println("a = 0");
         } else if (a < 10) {
             System.out.println("a < 10");
-        } else if (a > 0) {
+        } else if (a > 10) {
             System.out.println("a > 10");
         } else {
             System.out.println("ERROR");
+        }
+        switch (a){
+            case 0:
+                System.out.println("a = 0");
+                break;
+            case 11:
+                System.out.println("a > 10");
+                break;
+            case 9:
+                System.out.println("a < 10");
+                break;
+            default:
+                System.out.println("ERROR");
         }
         //Task2
         System.out.println("Task 2:");
