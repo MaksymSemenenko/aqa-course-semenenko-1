@@ -40,5 +40,22 @@ public class StepFifth {
         System.out.println("Task 4");
         Arrays.sort(merge);
         System.out.println("Sorted array: " + Arrays.toString(merge));
+        //Task5
+        System.out.println("Task 5 - bubble sorting");
+        int[] mas = {3,2,9,1,4};
+        boolean isSorted = false;
+        int buffer;
+        while(!isSorted){
+            isSorted = true;
+            for (int i = 0; i < mas.length-1;i++) {
+                if (mas[i]>mas[i+1]){
+                    isSorted = false;
+                    buffer = mas[i];
+                    mas[i] = mas[i+1];
+                    mas[i+1] = buffer;
+                }
+            }
+        }
+        System.out.println("Sorted array: " + Arrays.toString(mas));
     }
 }
