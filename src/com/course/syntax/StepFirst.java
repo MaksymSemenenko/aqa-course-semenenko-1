@@ -1,5 +1,4 @@
 package com.course.syntax;
-
 public class StepFirst {
     public static void main(String[] args) {
         //StepFirst
